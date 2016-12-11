@@ -11,10 +11,10 @@ email: alecchan1@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Alec Chan.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://alecchan.github.io" # the base hostname & protocol for your site
+url: "https://alecchan.github.io" # the base hostname & protocol for your site
 twitter_username:  
 github_username:  alec-chan 
-
+repository: 
 # Build settings
 markdown: kramdown
 kramdown:
@@ -26,4 +26,4 @@ kramdown:
 disqus_shortname:
 
 # used this for post_excerpt at index_page
-excerpt_separator: <!--description-->
+excerpt_separator:  tfhfh
