@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is a simple Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/).  Plus, you can find a lot of themes at [jekyllthemes.org](http://jekyllthemes.org/)
+My current project is Hop, a 2.5D co-op sidescroller by myself and [pablokm](http://pablokm.tumblr.com/)
 
-You can find the source code for this theme at: <data data-icon="ei-sc-github"></data>  [jekyll-simple](https://github.com/wild-flame/jekyll-simple)
+![image](http://68.media.tumblr.com/d11c1d1f445515d50e3f9f92ce662c98/tumblr_inline_ock810KS0U1rfowrb_500.jpg)
 
-You can find the source code for Jekyll at <data data-icon="ei-sc-github"></data>  [jekyll](https://github.com/jekyll/jekyll)
+
