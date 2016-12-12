@@ -11,4 +11,4 @@ The animation control code, camera flow, character physics and a lot of other th
 
 Here's a short video of a 2D Ricky navigating in the 3D world.
 
-<video controls style="outline:none; width:100%; height:100%;" src="https://a.pomf.cat/tigcyg.webm" type="video/webm"/>
+<video controls style="outline:none; width:100%; height:100%;" src="/assets/vid/3drickytest.webm" type="video/webm"/>
