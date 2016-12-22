@@ -14,31 +14,18 @@ That's where Livestreamer comes in.  Livestreamer is able to extract the video s
 Here's how to set that up:
 
 1. Install Livestreamer
-
  - Use your distro's package manager, in my case it's `sudo apt-get install livestreamer`, for macOS `easy_install -U livestreamer`, or if you're on Windows, download the installer from their site and run that.
-
 2. Write the config file
-
  - For Unix-likes create the file ~/.livestreamerrc
-
  - For Windows create the file %APPDATA%\livestreamer\livestreamerrc
-
  - These are the options I use for my config, feel free to use whatever suits your needs:
-
  `player=mpv
-
  player-no-close
-
  crunchyroll-username=<CR username>
-
  crunchyroll-password=<CR password>
-
  player-passthrough=hls
-
  default-stream=best`
-
 3. Stream your show
-
  - Open a command line and execute `livestreamer http://www.crunchyroll.com/gintama/episode-67-for-the-wind-is-the-life-510196` replacing with the url for the episode you're watching.
 
 
