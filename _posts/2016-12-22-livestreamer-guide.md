@@ -19,12 +19,17 @@ Here's how to set that up:
  - For Unix-likes create the file ~/.livestreamerrc
  - For Windows create the file %APPDATA%\livestreamer\livestreamerrc
  - These are the options I use for my config, feel free to use whatever suits your needs:
- `player=mpv
+ ```player=mpv
+
  player-no-close
+
  crunchyroll-username=<CR username>
+
  crunchyroll-password=<CR password>
+
  player-passthrough=hls
- default-stream=best`
+ 
+ default-stream=best```
 3. Stream your show
  - Open a command line and execute `livestreamer http://www.crunchyroll.com/gintama/episode-67-for-the-wind-is-the-life-510196` replacing with the url for the episode you're watching.
 
