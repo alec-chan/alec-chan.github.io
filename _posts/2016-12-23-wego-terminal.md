@@ -16,7 +16,7 @@ Process:
   - Make sure you have Go installed on your system `sudo apt install go` or download the binaries from https://golang.org
   - Run `go get -u github.com/schachmat/wego` -- sudo might be necessary here.
   - If that fails, you probably need to setup your go environment. To do that, simply: 
-  {% highlight %}
+  {% highlight bash %}
   mkdir $HOME/go
 
   export GOPATH=$HOME/go
