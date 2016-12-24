@@ -17,18 +17,21 @@ Process:
   - Run `go get -u github.com/schachmat/wego` -- sudo might be necessary here.
   - If that fails, you probably need to setup your go environment. To do that, simply: 
 
-        {% highlight bash %}
-        mkdir $HOME/go
+  	{% capture the_code %}
+    {% highlight bash %}
+    mkdir $HOME/go
 
-        export GOPATH=$HOME/go
+    export GOPATH=$HOME/go
 
-        export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+    export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-        echo "export GOPATH=$HOME/go" >> $HOME/.bashrc
+    echo "export GOPATH=$HOME/go" >> $HOME/.bashrc
 
-        echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> $HOME/.bashrc
-        {% endhighlight %}
-        
+    echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> $HOME/.bashrc
+    {% endhighlight %}
+    {% endcapture %}
+    {{ the_code | indent }}
+    
 2. Run `wego` once to generate a .wegorc config file
   - It will be generated in ~/.wegorc
 3. Get a developer API key from forecast.io, and find your location's latitude and longitude coordinates
