@@ -26,7 +26,6 @@ Process:
   echo "export GOPATH=$HOME/go" >> $HOME/.bashrc
 
   echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> $HOME/.bashrc
-
   {% endhighlight %}
 2. Run `wego` once to generate a .wegorc config file
   - It will be generated in ~/.wegorc
