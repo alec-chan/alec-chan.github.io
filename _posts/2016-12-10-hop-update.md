@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  3D Stage Update
-category: hop-dev 
+title:  Hop Changelog 2016-12-10
+tags: hop-dev 
 description: 2D characters in the 3D world
 ---
 
@@ -11,4 +11,4 @@ The animation control code, camera flow, character physics and a lot of other th
 
 Here's a short video of a 2D Ricky navigating in the 3D world.
 
-<video controls style="outline:none; width:100%; height:100%;" src="{{ site.url }}/assets/vid/3drickytest.webm" type="video/webm"/>
+{% include videoplayer.html url="3drickytest.webm" type="video/webm" %}

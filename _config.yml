@@ -1,29 +1,45 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "https://alec-chan.github.io" # the base hostname & protocol for your site.
+title: "alec chan"
 
-# Site settings
-title: Alec Chan
-email: alecchan1@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Alec Chan.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://alec-chan.github.io" # the base hostname & protocol for your site
-twitter_username:  
-github_username:  alec-chan 
-repository: 
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+paginate: 6 #articles per page
+paginate_path: /blog/page:num #makes pagination working
 
-# Third-party services
-# just leave someone empty to disable it
-# google_analytics: 
-disqus_shortname:
+#contacts
+git: "https://github.com/alec-chan"  #your github url here.
+stackoverflow: "http://stackoverflow.com/users/7336555/alec-chan" #Add your stackoverflow url here.
 
-# used this for post_excerpt at index_page
-excerpt_separator:  tfhfh
+
+#google analytics
+google:
+    tracking-id: "" #your tracking id here
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

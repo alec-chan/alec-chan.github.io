@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A guide to using Livestreamer and Crunchyroll
-category: misc
+tags: misc
 description: How I Learned to Stop Using Flashplayer and Love MPV
 ---
 
@@ -16,8 +16,8 @@ Here's how to set that up:
 1. Install Livestreamer
  - Use your distro's package manager, in my case it's `sudo apt-get install livestreamer`, for macOS `easy_install -U livestreamer`, or if you're on Windows, download the [installer](http://docs.livestreamer.io/install.html#installer) from their site and run that.
 2. Write the config file
- - For Unix-likes create the file ~/.livestreamerrc
- - For Windows create the file %APPDATA%\livestreamer\livestreamerrc
+ - For Unix-likes create the file `~/.livestreamerrc`
+ - For Windows create the file `%APPDATA%\livestreamer\livestreamerrc`
  - These are the options I use for my config, feel free to use whatever suits your needs:
  <script src="https://gist.github.com/alec-chan/66b4bfc3b27672b31a82846d80f13384.js"></script>
 3. Stream your show
