@@ -9,8 +9,6 @@ paginate_path: /blog/page:num #makes pagination working
 git: "https://github.com/alec-chan"  #your github url here.
 stackoverflow: "http://stackoverflow.com/users/7336555/alec-chan" #Add your stackoverflow url here.
 
-highlighter: pygments
-
 #google analytics
 google:
     tracking-id: "" #your tracking id here
@@ -18,7 +16,6 @@ google:
 gems:
   - jekyll-sitemap
   - jekyll-paginate
-  - pygments.rb
 
 
 # This is used by feed.xml. Uncomment if you want to use it.
