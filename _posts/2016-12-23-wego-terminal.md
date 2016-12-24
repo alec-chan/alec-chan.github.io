@@ -4,7 +4,7 @@ title:  Setting up Bash to show forecasts on login
 tags: misc
 ---
 
-Having Bash show weather forecasts on login to a new interactive shell is helpful, since you probably open new shells more than you look up the day's weather so you'll always be aware of the weather now.
+Having Bash show weather forecasts on login to a new interactive shell is actually pretty handy, since you probably open new shells more than you look up the day's weather so now you'll always be aware of the weather.
 
 To do this, I use wego - a weather client for the terminal, bashrc - the bash script that is executed every time you open a new interactive shell. 
 
