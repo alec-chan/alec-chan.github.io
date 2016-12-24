@@ -233,6 +233,12 @@ footer .right{
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   margin-bottom: 15px;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 #title #sitename,
