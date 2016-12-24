@@ -5,6 +5,11 @@ title: "alec chan"
 paginate: 6 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+
 #contacts
 git: "https://github.com/alec-chan"  #your github url here.
 stackoverflow: "http://stackoverflow.com/users/7336555/alec-chan" #Add your stackoverflow url here.
@@ -16,6 +21,7 @@ google:
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - github-pages
 
 
 # This is used by feed.xml. Uncomment if you want to use it.

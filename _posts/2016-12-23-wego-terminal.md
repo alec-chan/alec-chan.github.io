@@ -16,19 +16,16 @@ Process:
   - Make sure you have Go installed on your system `sudo apt install go` or download the binaries from https://golang.org
   - Run `go get -u github.com/schachmat/wego` -- sudo might be necessary here.
   - If that fails, you probably need to setup your go environment. To do that, simply: 
-  ~~~ bash
+      <figure class="highlight"><pre><code class="language-bash" data-lang="bash">   <span class="nb">mkdir</span> <span class="nv">$HOME</span><span class="sb">/go</span>
 
-    mkdir $HOME/go
+      <span class="nb">export </span><span class="nv">GOPATH</span><span class="o">=</span><span class="nv">$HOME</span><span class="sb">/go</span>
 
-    export GOPATH=$HOME/go
+      <span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:<span class="nv">$GOROOT</span><span class="sb">/bin:</span><span class="nv">$GOPATH</span><span class="sb">/bin</span>
 
-    export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+      <span class="nb">echo</span> <span class="s2">"export GOPATH=</span><span class="nv">$HOME</span><span class="s2">/go"</span> <span class="sb">&gt;&gt;</span> <span class="nv">$HOME</span><span class="sb">/.bashrc</span>
 
-    echo "export GOPATH=$HOME/go" >> $HOME/.bashrc
-
-    echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> $HOME/.bashrc
-
-  ~~~
+      <span class="nb">echo</span> <span class="s2">"export PATH=</span><span class="nv">$PATH</span><span class="s2">:</span><span class="nv">$GOROOT</span><span class="s2">/bin:</span><span class="nv">$GOPATH</span><span class="s2">/bin"</span> <span class="sb">&gt;&gt;</span> <span class="nv">$HOME</span><span class="sb">/.bashrc</span>
+      </code></pre></figure>
 2. Run `wego` once to generate a .wegorc config file
   - It will be generated in ~/.wegorc
 3. Get a developer API key from forecast.io, and find your location's latitude and longitude coordinates
