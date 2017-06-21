@@ -1,0 +1,38 @@
+---
+title: sync.theater
+permalink: "projects/sync.theater/index.html"
+layout: default
+---
+<style>
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<div class="resume row">
+  <div class="col-md-12">
+    <div id="about_me">
+      <h2>sync.theater</h2>
+      <br/>
+      <h3>What is sync.theater?</h3>
+
+	    <p>sync.theater is essentially an online movie theater.  You can go to <a href="http://sync.theater/">sync.theater</a>, queue up some videos and share your room link with your friends and the videos that you queue up will be played in sync to everyone in the room.</p>
+        <p>This app started as a personal project for friends to watch movies together online without having to worry about someone getting ahead or behind. Now, it has about 10-20 daily users and is continuously growing.</p>
+        <p>sync.theater is built on a C# backend which communicates with clients over websockets. In addition to the C# websocket server, a python video extraction server, which helps scrape webpages for video urls to embed, is part of the stack. All of these services run on a t2.micro AWS EC2 server.</p>
+	    <p>sync.theater is probably my largest project, at about 1.7k lines of code (excluding external libraries).  It is a solo project developed based around community feedback.</p>
+        <br/>
+        <p>This project is open source and can be cloned or contributed to here <a href="https://github.com/alec-chan/VideoSync/">alec-chan/VideoSync</a></p>
+
+    </div>
+  </div>
+</div>
